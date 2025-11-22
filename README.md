@@ -99,7 +99,7 @@ JSON
     "nome": "Fabricio",
     "telefone": "99999-1111"
   },
-  "valor_corrida": 42.3
+  "valor_corrida": 126.90
 }
 ```
 Verificação: Observe os logs no terminal. Você verá mensagens coloridas indicando:
@@ -136,6 +136,7 @@ Rota: GET /corridas
    
 
 ![alt text](image.png)
+
 
 
 
