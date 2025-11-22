@@ -27,7 +27,9 @@ REDIS_PORT=6379
 
 # Conexão com RabbitMQ Container: transflow-rabbitmq
 RABBITMQ_URL=amqp://guest:guest@rabbitmq:5672/
+```
 
+---
 
 2 Passos de Instalação
 Pré-requisitos
@@ -62,7 +64,7 @@ Rota: POST /corridas
 Payload de Exemplo:
 
 JSON
-
+```
 {
   "destino": "São José",
   "forma_pagamento": "Forma de Pagamento",
@@ -78,6 +80,7 @@ JSON
   },
   "valor_corrida": 42.3
 }
+```
 Verificação: Observe os logs no terminal. Você verá mensagens coloridas indicando:
 
 Recebimento do evento pelo Consumer.
@@ -105,4 +108,5 @@ Rota: GET /corridas
 4. Captura de Tela do Sistema
 
 ![alt text](image.png)
+
 
