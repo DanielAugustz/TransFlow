@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+faststream[rabbit]
+motor
+redis
+python-dotenv
+email-validator
